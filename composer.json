@@ -1,0 +1,32 @@
+{
+  "name": "bertptrs/mako-simple-cache",
+  "description": "A cache-wrapper implementing PSR-16 for the Mako Framework.",
+  "type": "library",
+  "require": {
+    "psr/simple-cache": "^1.0",
+    "mako/framework": "^6.0"
+  },
+  "require-dev": {
+    "php": "^7.2",
+    "phpro/grumphp": "^0.15.2",
+    "friendsofphp/php-cs-fixer": "^2.15",
+    "phpunit/phpunit": "^8.2"
+  },
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Bert Peters",
+      "email": "bert@bertptrs.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "bertptrs\\mako\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "bertptrs\\mako\\tests\\": "tests/"
+    }
+  }
+}
