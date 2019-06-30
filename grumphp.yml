@@ -4,3 +4,4 @@ parameters:
   tasks:
     phpcsfixer2:
       config: .php_cs
+    phpunit: ~
